@@ -6,7 +6,7 @@ This repository contains the projects I've built using **HTML** and **CSS** as p
 ## 📁 What's Inside?
 
 Each folder in this repo is a standalone project made with:
-- 🧱 **HTML** — for structure
+- 🧱 **HTML** — for structure  
 - 🎨 **CSS** — for styling
 
 These projects include:
@@ -28,6 +28,11 @@ I'm using this space to:
 - Add more projects as I complete them  
 - Improve existing ones with better techniques  
 - Try animations and more advanced layouts 🎯
+
+## 🙋‍♂️ Connect with Me
+
+You can check out my freeCodeCamp profile here:  
+👉 [@kidlat on freeCodeCamp](https://www.freecodecamp.org/kidlat)
 
 ---
 

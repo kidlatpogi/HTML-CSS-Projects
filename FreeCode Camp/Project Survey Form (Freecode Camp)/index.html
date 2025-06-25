@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    
+  </head>
+
+  <body>
+
+    <!-- 1 and 2-->
+    <h1 id="title">Survey Form</h1>
+
+    <!-- 3 and 4-->
+    <p id="description">Survey Form for Students.</p>
+
+    <hr>
+
+    <!-- 5 -->
+    <form id="survey-form">
+
+      <section>
+
+      <div class="name-container">
+        <label id="name-label" for="name">Name</label>
+        <!-- 6 to 9-->
+        <input id="name" type="text" required 
+        placeholder="Name"/> <!-- 28-->
+      </div>
+
+      <div class="email-container">
+        <label id="email-label" for="email">Email</label>
+        <!-- 10 to 13-->
+        <input id="email" type="email"required
+        placeholder="Email"/> <!-- 29-->
+      </div>
+
+      <div class="age-container">
+        <label id="number-label" for="number">Age</label>
+        <!-- 14 to 18 -->
+        <input id="number" type="number" min="13" max="120"
+        placeholder="Age" value="Age"/> <!-- 30-->
+      </div>
+      </section>
+
+      <div class="dropdown-container">
+        <section>
+          <!-- 31 to 33 -->
+          <select id="dropdown" class="dropdown">
+            <option>Select you year level</option>
+            <option>1st year</option>
+            <option>2nd year</option>
+            <option>3rd year</option>
+            <option>4th year</option>
+          </select>
+        </section>
+      </div>
+
+    <!-- Radio -->
+    <div class="input-row">
+      <label for="college">College</label>
+      <input type="radio" id="college" name="educationLevel" value="College" checked/>
+    </div>
+
+    <div class="input-row">
+      <label for="shs">SHS</label>
+      <input type="radio" id="shs" name="educationLevel" value="SHS" />
+    </div>
+
+    <div class="input-row">
+      <label for="reg">Regular</label>
+      <input type="radio" id="reg" name="schedule" value="Regular" checked/>
+    </div>
+
+    <div class="input-row">
+      <label for="irreg">Irregular</label>
+      <input type="radio" id="irreg" name="schedule" value="Irregular" />
+    </div>
+
+    <!-- Checkbox -->
+    <div class="input-row">
+      <label for="member">Member of Organization</label>
+      <input type="checkbox" id="member" name="member" value="Member" />
+    </div>
+
+    <div class="input-row">
+      <label for="not-member">Member of CSIT</label>
+      <input type="checkbox" id="not-member" name="not-member" value="Not Member" checked/>
+    </div>
+
+    <section>
+      <label for="feedback" id="feedback-label">Feedback</label>
+      <textarea id="feedback" placeholder="Input your feedback here..."></textarea>
+    </section>
+
+    <input type="submit" id="submit"/>
+
+    </form>
+
+  </body>
+
+</html>

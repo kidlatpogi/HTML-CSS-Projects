@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+    font-size: 48px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#subtitle{
+    font-size: 20x;
+    text-align: center;
+    margin: 20px auto;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    padding: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#image{
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption{
+    margin: 20px auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.old-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info,
+#tribute-link{
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+
+#tribute-info p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5;
+}
+blockquote p {
+    text-align: left;
+    font-style: italic;
+    font-size: 17px;
+    line-height: normal;
+}
+
+
+#tribute-link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+}
+
+/* font */
+cite,
+h3,
+#title,
+#subtitle,
+#img-caption,
+#tribute-info,
+#tribute-link{
+    font-family: 'Courier New', Courier, monospace;
+}

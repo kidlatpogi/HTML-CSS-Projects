@@ -1,0 +1,144 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #F7F7F7;
+}
+
+html{
+    font-family: "Beaufort for LOL", sans-serif;
+    line-height: 2;
+}
+
+html:not(.drakes){
+    line-height: 1.5;
+}
+
+/* FONT IMPORT */
+@font-face {
+    font-family: "Beaufort for LOL Bold";
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold") format("svg");
+}
+
+/* START OF NAVBAR */
+#navbar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #111111;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#navbar .nav-link {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar .nav-link.active {
+  background-color: #C8AA6E;
+  color: white;
+}
+
+#navbar .nav-link:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#main-doc {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #navbar .nav-link {
+    float: left;
+    width: 50%;
+  }
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #navbar .nav-link {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+}
+/* END OF NAVBAR */
+
+h1:not(.nav-header) {
+    font-size: 48px;
+}
+
+.nav-header{
+    font-size: 24px;
+    color: white;
+    margin: auto auto 5px 10px;
+    padding: 0 auto;
+}
+
+#Introduction,
+#Getting_Started,
+#Champions,
+#Roles_Explained,
+#Maps,
+#Objectives,
+#Game_Phases,
+#Runes_and_Items,
+#Ranked_System,
+#Tips_for_New_Players{
+    max-width: 120vh;
+    margin: auto auto 10px 20px;
+    padding: 0 auto;
+}
+
+
+#Introduction,
+#Getting_Started,
+#Champions,
+#Roles_Explained,
+#Maps,
+#Objectives,
+#Game_Phases,
+#Runes_and_Items,
+#Ranked_System,
+#Tips_for_New_Players p{
+    margin-left: 20px;
+    text-align: justify;
+    max-width: 120vh;
+}
+
+ul:not(.drakes){
+    list-style-type: none
+}
+
+.drakes{
+    list-style: square;
+}
+
+.external-link{
+    color: #00B2CF;
+    font-weight: bold;
+}
+
+.img-example{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}

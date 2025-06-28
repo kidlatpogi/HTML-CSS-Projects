@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zeus Bautista">
+
+    <!-- START OF FONT AWESOME -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <!-- END OF FONT AWESOME -->
+
+    <!-- START OF FONTSTYLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <!-- END OF FONTSTYLE -->
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Zeus Portfolio</title>
+</head>
+<body>
+
+    <!-- START OF HEADER -->
+    <header>
+        <!-- NAV BAR -->
+        <nav id="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="lightning-logo"><i class="fa-solid fa-bolt"></i></span>
+                    <span class="name-logo">Zeus</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#welcome-section" class="nav-link">Home</a>
+                    <a href="#profile" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </div>
+            </div>
+        </nav>
+        <!-- END OF NAV BAR -->
+
+        <!-- START OF HAMBURGER MENU -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <div class="menu__header">
+                    <span class="lightning-logo"><i class="fa-solid fa-bolt"></i></span>
+                    <span class="name-logo">Zeus</span>
+                </div>
+                <li><a href="#welcome-section" class="menu__item">Home</a></li>
+                <li><a href="#profile" class="menu__item">About</a></li>
+                <li><a href="#projects" class="menu__item">Projects</a></li>
+            </ul>
+        </div>
+        <!-- END OF HAMBURGER MENU -->
+    </header>
+    <!-- END OF HEADER -->
+
+    <main>
+        <!-- START OF WELCOME -->
+        <div>
+            <section id="welcome-section">
+                <h1>Hi, I'm </h1>
+                <h1>ZEUS</h1>
+                <p>A web developer</p>
+            </section>
+        </div>
+        <!-- END OF WELCOME -->
+
+        <!-- START OF ABOUT ME -->
+        <div id="profile">
+            <h1>About Me</h1>
+            <p>
+                I'm Zeus Bautista, a passionate and dedicated future web developer from the Philippines. I enjoy turning ideas into reality through clean and functional code. 
+                Currently, I'm learning HTML, CSS, JavaScript, and improving my frontend skills one project at a time.
+            </p>
+
+            <div class="techstack">
+            <!-- Left Column -->
+                <div class="column">
+                    <h2>Tech Stack</h2>
+                    <div>
+                        <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
+                        <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3">
+                        <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
+                        <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL">
+                        <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
+                        <img src="https://img.shields.io/badge/-VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VS Code">
+                    </div>
+                </div>
+
+            <!-- Right Column -->
+                <div class="column">
+                <h2>Currently Learning</h2>
+                    <div>
+                        <img src="https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge" alt="React">
+                        <img src="https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" alt="Node.js">
+                        <img src="https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white&style=for-the-badge" alt="PHP">
+                        <img src="https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge" alt="Tailwind CSS">
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <h1>Goals</h1>
+                <p>
+                    I'm passionate about front-end development and currently focused on mastering HTML, CSS, and JavaScript, with plans to explore React and Tailwind. 
+                    While my long-term goal is to become a full-stack developer, I’m starting from the frontend and gradually learning backend technologies like Node.js and PHP through hands-on projects.
+                </p>
+            </section>
+
+            <section id="github">
+                <h2>Follow Me</h2>
+                <a href="https://github.com/kidlatpogi" target="_blank" id="profile-link">
+                    <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge">
+                </a>
+            </section>
+
+        </div>
+        <!-- END OF ABOUT ME -->
+
+        <!-- START OF PROJECTS -->
+        <div id="projects">
+            <h1>Projects</h1>
+            <div class="proj-col">
+                <div class="proj-column">
+                    <h2>Tribe Page</h2>
+                    <a href="https://github.com/kidlatpogi/Zeus-WebForge/tree/main/FreeCode%20Camp/Project%20Tribute%20Page%20(Freecode%20Camp)" target="_blank" class="project-tile">
+                        <h3>Click Here <i class="fa-solid fa-arrow-down"></i></h3>
+                        <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge">
+                    </a>
+                </div>
+
+                <div class="proj-column">
+                    <h2>Technical Documentation Page</h2>
+                    <a href="https://github.com/kidlatpogi/Zeus-WebForge/tree/main/FreeCode%20Camp/Project%20Technical%20Documentation%20Pag(Freecode%20Camp)" target="_blank" class="project-tile">
+                        <h3>Click Here <i class="fa-solid fa-arrow-down"></i></h3>
+                        <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge">
+                    </a>
+                </div>
+
+                <div class="proj-column">
+                    <h2>Landing Page</h2>
+                    <a href="https://github.com/kidlatpogi/Zeus-WebForge/tree/main/FreeCode%20Camp/Project%20Landing%20Page%20(Freecode%20Camp)" target="_blank" class="project-tile">
+                        <h3>Click Here <i class="fa-solid fa-arrow-down"></i></h3>
+                        <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge">
+                    </a>
+                </div>
+
+                <div class="proj-column">
+                    <h2>Survey Form</h2>
+                    <a href="https://github.com/kidlatpogi/Zeus-WebForge/tree/main/FreeCode%20Camp/Project%20Survey%20Form%20(Freecode%20Camp)" target="_blank" class="project-tile">
+                        <h3>Click Here <i class="fa-solid fa-arrow-down"></i></h3>
+                        <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub Badge">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- END OF PROJECTS -->
+    </main>
+</body>
+</html>
